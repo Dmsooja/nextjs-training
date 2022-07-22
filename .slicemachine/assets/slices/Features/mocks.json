@@ -1,0 +1,132 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "features",
+    "items": [
+      {
+        "descriptionIcon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?w=900&h=500&fit=crop"
+        },
+        "descriptionTitle": [
+          {
+            "type": "paragraph",
+            "text": "Dolore excepteur elit enim ex reprehenderit excepteur reprehenderit nisi elit ullamco commodo.",
+            "spans": []
+          }
+        ],
+        "descriptionDetail": [
+          {
+            "type": "paragraph",
+            "text": "Mollit duis anim magna Lorem incididunt et aliquip exercitation consequat. Esse veniam voluptate amet minim dolore mollit.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "descriptionIcon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=900&h=500&fit=crop"
+        },
+        "descriptionTitle": [
+          {
+            "type": "paragraph",
+            "text": "Nulla est magna qui consequat occaecat et excepteur do officia consectetur voluptate ex esse excepteur. Nulla ad est in aute reprehenderit commodo culpa ea elit. Incididunt fugiat consequat tempor pariatur laboris deserunt nostrud.",
+            "spans": []
+          }
+        ],
+        "descriptionDetail": [
+          {
+            "type": "paragraph",
+            "text": "Lorem non eu irure velit consequat aliqua qui et qui anim voluptate velit duis minim.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "descriptionIcon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=900&h=500&fit=crop"
+        },
+        "descriptionTitle": [
+          {
+            "type": "paragraph",
+            "text": "Voluptate ullamco excepteur elit ad est sit voluptate dolor veniam. Reprehenderit minim ex ex do esse aliqua occaecat esse amet dolore. Reprehenderit cillum est ad aute qui magna enim nulla cupidatat ex dolor.",
+            "spans": []
+          }
+        ],
+        "descriptionDetail": [
+          {
+            "type": "paragraph",
+            "text": "Ullamco incididunt quis qui ut ut ad id proident eiusmod sint est aute duis. Deserunt labore in adipisicing ut excepteur quis anim. Irure excepteur aliquip sunt deserunt velit cillum anim.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "descriptionIcon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+        },
+        "descriptionTitle": [
+          {
+            "type": "paragraph",
+            "text": "Aute reprehenderit laborum officia occaecat nisi tempor velit dolore do non culpa do et.",
+            "spans": []
+          }
+        ],
+        "descriptionDetail": [
+          {
+            "type": "paragraph",
+            "text": "Magna sunt qui magna tempor ut dolor esse fugiat sint duis voluptate in. Quis officia consectetur eu esse sit.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading2",
+          "text": "Architect transparent bandwidth",
+          "spans": []
+        }
+      ],
+      "subTitle": [
+        {
+          "type": "paragraph",
+          "text": "Cupidatat est ullamco proident adipisicing tempor consequat ad laborum enim tempor.",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Cupidatat minim aliqua ipsum voluptate anim id commodo ipsum dolor ea ex minim Lorem laboris occaecat.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

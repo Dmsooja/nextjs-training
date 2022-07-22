@@ -1,0 +1,72 @@
+{
+  "id": "features",
+  "type": "SharedSlice",
+  "name": "Features",
+  "description": "Features",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Features",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Title here",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "subTitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Sub Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your feature"
+          }
+        }
+      },
+      "items": {
+        "descriptionIcon": {
+          "type": "Image",
+          "config": {
+            "label": "Description Icon",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "descriptionTitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description Title",
+            "placeholder": "Cta title",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "descriptionDetail": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description Detail",
+            "placeholder": "Cta detail",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

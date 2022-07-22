@@ -1,0 +1,403 @@
+{
+  "slices": {
+    "components": {
+      "cta": {
+        "library": "slices",
+        "id": "cta",
+        "name": "Cta",
+        "description": "Cta",
+        "model": {
+          "id": "cta",
+          "type": "SharedSlice",
+          "name": "Cta",
+          "description": "Cta",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Cta",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Primary title here",
+                    "allowTargetBlank": true,
+                    "single": "heading1,heading2"
+                  }
+                },
+                "secondaryTitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Secondary Title",
+                    "placeholder": "Secondary title here",
+                    "allowTargetBlank": true,
+                    "single": "heading1,heading2"
+                  }
+                },
+                "primaryCta": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Primary Cta",
+                    "select": "document"
+                  }
+                },
+                "secondaryCta": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Secondary Cta",
+                    "select": "document"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "cta",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Recontextualize out-of-the-box mindshare",
+                  "spans": []
+                }
+              ],
+              "secondaryTitle": [
+                {
+                  "type": "heading1",
+                  "text": "Transition 24/7 e-business",
+                  "spans": []
+                }
+              ],
+              "primaryCta": {
+                "link_type": "Web",
+                "url": "http://twitter.com"
+              },
+              "secondaryCta": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/dianka/Documents/Training/nextjs-training/.slicemachine/assets/slices/Cta/default/preview.png",
+            "width": 800,
+            "height": 258
+          }
+        }
+      },
+      "features": {
+        "library": "slices",
+        "id": "features",
+        "name": "Features",
+        "description": "Features",
+        "model": {
+          "id": "features",
+          "type": "SharedSlice",
+          "name": "Features",
+          "description": "Features",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Features",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Title here",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "subTitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Sub Title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {
+                "descriptionIcon": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Description Icon",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "descriptionTitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description Title",
+                    "placeholder": "Cta title",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "descriptionDetail": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description Detail",
+                    "placeholder": "Cta detail",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "features",
+            "items": [
+              {
+                "descriptionIcon": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?w=900&h=500&fit=crop"
+                },
+                "descriptionTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Dolore excepteur elit enim ex reprehenderit excepteur reprehenderit nisi elit ullamco commodo.",
+                    "spans": []
+                  }
+                ],
+                "descriptionDetail": [
+                  {
+                    "type": "paragraph",
+                    "text": "Mollit duis anim magna Lorem incididunt et aliquip exercitation consequat. Esse veniam voluptate amet minim dolore mollit.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "descriptionIcon": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=900&h=500&fit=crop"
+                },
+                "descriptionTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nulla est magna qui consequat occaecat et excepteur do officia consectetur voluptate ex esse excepteur. Nulla ad est in aute reprehenderit commodo culpa ea elit. Incididunt fugiat consequat tempor pariatur laboris deserunt nostrud.",
+                    "spans": []
+                  }
+                ],
+                "descriptionDetail": [
+                  {
+                    "type": "paragraph",
+                    "text": "Lorem non eu irure velit consequat aliqua qui et qui anim voluptate velit duis minim.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "descriptionIcon": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=900&h=500&fit=crop"
+                },
+                "descriptionTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Voluptate ullamco excepteur elit ad est sit voluptate dolor veniam. Reprehenderit minim ex ex do esse aliqua occaecat esse amet dolore. Reprehenderit cillum est ad aute qui magna enim nulla cupidatat ex dolor.",
+                    "spans": []
+                  }
+                ],
+                "descriptionDetail": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ullamco incididunt quis qui ut ut ad id proident eiusmod sint est aute duis. Deserunt labore in adipisicing ut excepteur quis anim. Irure excepteur aliquip sunt deserunt velit cillum anim.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "descriptionIcon": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+                },
+                "descriptionTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Aute reprehenderit laborum officia occaecat nisi tempor velit dolore do non culpa do et.",
+                    "spans": []
+                  }
+                ],
+                "descriptionDetail": [
+                  {
+                    "type": "paragraph",
+                    "text": "Magna sunt qui magna tempor ut dolor esse fugiat sint duis voluptate in. Quis officia consectetur eu esse sit.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Architect transparent bandwidth",
+                  "spans": []
+                }
+              ],
+              "subTitle": [
+                {
+                  "type": "paragraph",
+                  "text": "Cupidatat est ullamco proident adipisicing tempor consequat ad laborum enim tempor.",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Cupidatat minim aliqua ipsum voluptate anim id commodo ipsum dolor ea ex minim Lorem laboris occaecat.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/dianka/Documents/Training/nextjs-training/.slicemachine/assets/slices/Features/default/preview.png",
+            "width": 800,
+            "height": 928
+          }
+        }
+      },
+      "test_slice": {
+        "library": "slices",
+        "id": "test_slice",
+        "name": "TestSlice",
+        "description": "TestSlice",
+        "model": {
+          "id": "test_slice",
+          "type": "SharedSlice",
+          "name": "TestSlice",
+          "description": "TestSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TestSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "test_slice",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Unleash sexy e-tailers",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Culpa nulla excepteur elit cupidatat mollit fugiat veniam ipsum. Reprehenderit minim do tempor ullamco Lorem velit nisi. Nostrud elit aute do esse amet.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/dianka/Documents/Training/nextjs-training/.slicemachine/assets/slices/TestSlice/default/preview.png",
+            "width": 800,
+            "height": 72
+          }
+        }
+      }
+    }
+  }
+}
