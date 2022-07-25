@@ -1,0 +1,48 @@
+{
+  "id": "footer_links",
+  "type": "SharedSlice",
+  "name": "FooterLinks",
+  "description": "FooterLinks",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "FooterLinks",
+      "primary": {
+        "copyright": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Copyright",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {
+        "socialLink": {
+          "type": "Link",
+          "config": {
+            "label": "Social Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "socialIcon": {
+          "type": "Image",
+          "config": {
+            "label": "Social Icon",
+            "constraint": {
+              "width": 24,
+              "height": 24
+            },
+            "thumbnails": []
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "footer",
+  "label": "Footer",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "menuLinks": {
+        "type": "Group",
+        "config": {
+          "label": "Menu Links",
+          "fields": {
+            "label": {
+              "type": "StructuredText",
+              "config": {
+                "single": "paragraph",
+                "label": "Link Label",
+                "placeholder": "Link Label..."
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "Select a Link...",
+                "select": null
+              }
+            }
+          }
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "footer_links": {
+              "type": "SharedSlice"
+            },
+            "reassurance": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

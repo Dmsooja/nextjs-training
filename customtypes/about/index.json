@@ -1,6 +1,6 @@
 {
-  "id": "playground-page",
-  "label": "Playground page",
+  "id": "about",
+  "label": "About",
   "repeatable": false,
   "status": true,
   "json": {
@@ -19,23 +19,6 @@
           "placeholder": "",
           "allowTargetBlank": true,
           "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
-        }
-      },
-      "slices": {
-        "type": "Slices",
-        "fieldset": "Slice Zone",
-        "config": {
-          "choices": {
-            "features": {
-              "type": "SharedSlice"
-            },
-            "cta": {
-              "type": "SharedSlice"
-            },
-            "test_slice": {
-              "type": "SharedSlice"
-            }
-          }
         }
       }
     }

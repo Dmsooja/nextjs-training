@@ -1,7 +1,11 @@
 {
   "_cts": {
     "playground-page": {},
-    "homepage": {}
+    "homepage": {},
+    "footer": {},
+    "about": {},
+    "contact": {},
+    "blog": {}
   },
   "slices": {
     "Features": {
@@ -91,6 +95,17 @@
             }
           }
         }
+      }
+    },
+    "FooterLinks": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Reassurance": {
+      "default": {
+        "primary": {}
       }
     }
   }

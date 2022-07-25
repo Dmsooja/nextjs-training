@@ -1,6 +1,14 @@
 {
-  "id": "ff3bc7a0-efee-4e08-86ac-9fa1e0360c61",
-  "uid": "accusamus-vel-dolor",
+  "id": "0d99f8d6-aaef-42ab-9fb2-b240c10ea5d7",
+  "uid": "sunt-aut-fuga",
   "type": "playground-page",
-  "data": {}
+  "data": {
+    "title": [
+      {
+        "type": "paragraph",
+        "text": "Aliqua dolore est reprehenderit. Ipsum nostrud aliquip culpa eiusmod aliquip.",
+        "spans": []
+      }
+    ]
+  }
 }

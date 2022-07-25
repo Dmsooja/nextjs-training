@@ -1,0 +1,35 @@
+{
+  "id": "64fb8417-d3a8-42a9-9b8a-c1b3ce340bde",
+  "uid": "sit-amet-tempora",
+  "type": "footer",
+  "data": {
+    "menuLinks": [
+      {
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Cupidatat nostrud voluptate minim.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Non cupidatat exercitation qui laborum adipisicing cillum eiusmod. Enim fugiat consectetur dolor ex enim adipisicing ullamco et minim id minim qui ut ullamco quis. Ut nulla exercitation est qui est quis voluptate deserunt cupidatat aliqua pariatur nisi adipisicing cupidatat.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      }
+    ]
+  }
+}

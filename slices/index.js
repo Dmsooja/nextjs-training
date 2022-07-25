@@ -4,7 +4,9 @@ import Cta from './Cta';
 import Faq from './Faq';
 import FeaturedBlogPosts from './FeaturedBlogPosts';
 import Features from './Features';
+import FooterLinks from './FooterLinks';
 import HeroSection from './HeroSection';
+import Reassurance from './Reassurance';
 import TestSlice from './TestSlice';
 
 export {
@@ -12,7 +14,9 @@ export {
 	Faq,
 	FeaturedBlogPosts,
 	Features,
+	FooterLinks,
 	HeroSection,
+	Reassurance,
 	TestSlice,
 };
 
@@ -21,6 +25,8 @@ export const components = {
 	faq: Faq,
 	featured_blog_posts: FeaturedBlogPosts,
 	features: Features,
+	footer_links: FooterLinks,
 	hero_section: HeroSection,
+	reassurance: Reassurance,
 	test_slice: TestSlice,
 };
