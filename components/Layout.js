@@ -13,7 +13,6 @@ export const Layout = ({ children, menu, footer }) => {
         : null
       }
       <main>
-        <h1>Layout</h1>
         {children}
         </main>
       {footer?.data ?

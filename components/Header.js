@@ -8,13 +8,16 @@ export const Header = ({ menu }) => (
       </PrismicLink>
       <nav className="flex-grow">
         <ul className="-ml-5 -mt-5 flex justify-end">
-          {menu.data?.menuLinks.map((menuLink) => (
-            <li key={menuLink.label} className="pt-5 pl-5">
-              <PrismicLink field={menuLink.link} className="text-neutral-500">
-                <PrismicText field={menuLink.label} />
-              </PrismicLink>
-            </li>
-          ))}
+          {menu.data?.menuLinks.map((menuLink, idx) => {
+            // console.log(menuLink.label);
+            return (
+              <li key={idx} className="pt-5 pl-5">
+                <PrismicLink field={menuLink.link} className="text-neutral-500">
+                  <PrismicText field={menuLink.label} />
+                </PrismicLink>
+              </li>
+            )
+          })}
         </ul>
       </nav>
     </div>
