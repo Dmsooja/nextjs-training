@@ -1,6 +1,7 @@
 {
   "_cts": {
-    "playground-page": {}
+    "playground-page": {},
+    "homepage": {}
   },
   "slices": {
     "Features": {
@@ -9,6 +10,18 @@
           "title": {
             "config": {
               "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "subTitle": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
               "blocks": 1
             }
           }
@@ -47,6 +60,38 @@
         }
       }
     },
-    "TestSlice": {}
+    "TestSlice": {},
+    "HeroSection": {},
+    "FeaturedBlogPosts": {
+      "default": {
+        "items": {}
+      }
+    },
+    "Faq": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "question": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "answer": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
   }
 }

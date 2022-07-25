@@ -1,0 +1,9 @@
+import MyComponent from '../../../../slices/Faq';
+
+export default {
+  title: 'slices/Faq'
+}
+
+
+export const _Default = () => <MyComponent slice={{"variation":"default","name":"Default","slice_type":"faq","items":[{"question":[{"type":"heading2","text":"Reinvent value-added content","spans":[]}],"answer":[{"type":"paragraph","text":"Magna do tempor nulla ad veniam dolore nulla enim ut nisi nostrud. Et tempor id sunt sint proident deserunt sit tempor aliqua nulla dolore. Ullamco elit nisi pariatur ea irure qui reprehenderit ullamco ullamco eiusmod consequat reprehenderit labore do ex.","spans":[]}]},{"question":[{"type":"heading2","text":"Disintermediate turn-key solutions","spans":[]}],"answer":[{"type":"paragraph","text":"Dolore esse tempor ex officia ut ut in. Cillum magna enim mollit. Elit non occaecat labore aute sit et excepteur nisi velit est et officia in minim.","spans":[]}]}],"primary":{"title":[{"type":"paragraph","text":"Qui esse id sit nostrud mollit adipisicing. Officia voluptate ea laboris labore irure dolor labore amet.","spans":[]}]},"id":"_Default"}} />
+_Default.storyName = 'Default'
