@@ -6,38 +6,13 @@ module.exports = {
     "./slices/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
+    colors: {
+      'lightgreen': '#CED5CF',
+      'funkyorange': '#FBA366',
+      'darkgreen': '#6E7E5F',
+      'black': '#000000',
+    },
     extend: {},
   },
   plugins: [],
 }
-
-
-
-// module.exports = {
-//   content: ["./pages/**/*.js", "./components/**/*.js", "./slices/**/*.js"],
-//   theme: {
-//     fontFamily: {
-//       sans: 'Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
-//       serif:
-//         '"Libre Baskerville", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
-//     },
-//     extend: {},
-//   },
-//   plugins: [require("@tailwindcss/aspect-ratio")],
-// };
-
-// module.exports = {
-//   content: [
-//     "./pages/**/*.{js,ts,jsx,tsx}",
-//     "./slices/**/*.{js,ts,jsx,tsx}",
-//     "./components/**/*.{js,ts,jsx,tsx}",
-//   ],
-//   theme: {
-//     extend: {},
-//   },
-//   plugins: [
-//     require('@tailwindcss/aspect-ratio'),
-//     require('@tailwindcss/forms'),
-//     require('@tailwindcss/typography'),
-//   ],
-// }

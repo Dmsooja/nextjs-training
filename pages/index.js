@@ -1,17 +1,15 @@
 import { SliceZone } from "@prismicio/react"
 import { Layout } from "../components/Layout"
 import { createClient } from '../prismicio'
-
-import { components as ecommerceComponents } from '../slices/index'
+import { components } from '../slices/index'
 
 // Menu graphQuery
 
-const __allComponents = { ...ecommerceComponents }
+const __allComponents = { ...components }
 
 export default function Home({ doc, menu, footer }) {
   return (
     <div>
-      {/* <SliceZone slices={doc.data.slices} components={__allComponents} /> */}
       <Layout menu={menu} footer={footer}>
         <SliceZone slices={doc.data.slices} components={__allComponents} />
       </Layout>
@@ -19,10 +17,11 @@ export default function Home({ doc, menu, footer }) {
   )
 }
 
+// Query data
 export async function getStaticProps({ previewData }) {
   const client = createClient(previewData)
 
-  //Querying page
+  // Exemple querying playground page
   // const document = (await client.getSingle('playground-page').catch(e => {
   //   return null
   // }));
@@ -32,17 +31,32 @@ export async function getStaticProps({ previewData }) {
   //   }
   // }
 
+  // Query the homepage and render it
   const document = (await client.getSingle('homepage').catch(e => {
     return null
   }));
+
+  // Query the navigation
+  const footer = (await client.getSingle("footer").catch(e => {
+    return null
+  }));
+
+  const menu = (await client.getSingle("menu").catch(e => {
+    return null
+  }));
+
+
   if (!document) {
     return {
       notFound: true,
     }
   }
+
   return {
     props: {
-      doc: document
+      doc: document,
+      menu: menu,
+      footer: footer
     }, // will be passed to the page component as props
   }
 }
