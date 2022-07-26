@@ -37,6 +37,9 @@
             },
             "faq": {
               "type": "SharedSlice"
+            },
+            "scrolling_cards": {
+              "type": "SharedSlice"
             }
           }
         }

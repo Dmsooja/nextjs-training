@@ -10,6 +10,12 @@ export function linkResolver(doc) {
   switch (doc.type) {
     case 'homepage':
       return '/'
+    case 'playground-page':
+      return '/playground'
+    case 'blog':
+      return '/blog'
+    case 'about':
+      return '/about'
     case 'page':
       return `/${doc.uid}`
     default:
