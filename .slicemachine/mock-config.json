@@ -2,7 +2,15 @@
   "_cts": {
     "playground-page": {},
     "homepage": {},
-    "footer": {},
+    "footer": {
+      "socialSection": {},
+      "copyright": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    },
     "about": {},
     "contact": {},
     "blog": {}
@@ -65,10 +73,32 @@
       }
     },
     "TestSlice": {},
-    "HeroSection": {},
+    "HeroSection": {
+      "default": {
+        "items": {},
+        "primary": {
+          "primaryCtaText": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "secondaryCtaText": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
     "FeaturedBlogPosts": {
       "default": {
-        "items": {}
+        "items": {
+          "articleReadingTime": {
+            "content": 3
+          }
+        }
       }
     },
     "Faq": {
@@ -104,6 +134,11 @@
       }
     },
     "Reassurance": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "ScrollingCards": {
       "default": {
         "primary": {}
       }

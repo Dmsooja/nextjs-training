@@ -1,0 +1,117 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "scrolling_cards",
+    "items": [
+      {
+        "cardImage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?w=900&h=500&fit=crop"
+        },
+        "cardTitle": [
+          {
+            "type": "paragraph",
+            "text": "In dolor ut est in in velit sint duis eiusmod proident non eiusmod proident fugiat minim. Enim incididunt nostrud Lorem cillum eiusmod do est.",
+            "spans": []
+          }
+        ],
+        "cardLink": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "cardImage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
+        },
+        "cardTitle": [
+          {
+            "type": "paragraph",
+            "text": "Veniam Lorem sunt cupidatat anim ea elit excepteur pariatur. Ut mollit labore sint.",
+            "spans": []
+          }
+        ],
+        "cardLink": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "cardImage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=900&h=500&fit=crop"
+        },
+        "cardTitle": [
+          {
+            "type": "paragraph",
+            "text": "Culpa aliqua in in et reprehenderit dolor sint mollit ullamco et nostrud pariatur.",
+            "spans": []
+          }
+        ],
+        "cardLink": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "cardImage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=900&h=500&fit=crop"
+        },
+        "cardTitle": [
+          {
+            "type": "paragraph",
+            "text": "Laborum sunt tempor commodo do minim laboris laboris est elit ut fugiat consequat amet.",
+            "spans": []
+          }
+        ],
+        "cardLink": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Target mission-critical action-items",
+          "spans": []
+        }
+      ],
+      "link": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "linkText": [
+        {
+          "type": "paragraph",
+          "text": "Excepteur quis nulla anim consequat aute deserunt sunt.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

@@ -28,7 +28,88 @@
           }
         }
       },
-      "items": {},
+      "items": {
+        "articleLink": {
+          "type": "Link",
+          "config": {
+            "label": "Article Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "articleImage": {
+          "type": "Image",
+          "config": {
+            "label": "Article Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "articleTitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Article Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "articleDescription": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Article Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "authorLink": {
+          "type": "Link",
+          "config": {
+            "label": "Author Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "authorImage": {
+          "type": "Image",
+          "config": {
+            "label": "Author Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "authorName": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Author Name",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "articleDateTime": {
+          "type": "Timestamp",
+          "config": {
+            "label": "Article Date Time",
+            "placeholder": ""
+          }
+        },
+        "articleDate": {
+          "type": "Date",
+          "config": {
+            "label": "Article Date",
+            "placeholder": ""
+          }
+        },
+        "articleReadingTime": {
+          "type": "Number",
+          "config": {
+            "label": "Article Reading Time",
+            "placeholder": ""
+          }
+        }
+      },
       "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     }
   ]
