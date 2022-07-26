@@ -29,14 +29,47 @@
           }
         }
       },
+      "socialSection": {
+        "type": "Group",
+        "config": {
+          "label": "Social Section",
+          "fields": {
+            "socialLink": {
+              "type": "Link",
+              "config": {
+                "label": "Social Link",
+                "placeholder": "",
+                "select": null
+              }
+            },
+            "socialIcon": {
+              "type": "Image",
+              "config": {
+                "label": "Social Icon",
+                "constraint": {
+                  "width": 24,
+                  "height": 24
+                },
+                "thumbnails": []
+              }
+            }
+          }
+        }
+      },
+      "copyright": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Copyright",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph"
+        }
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "footer_links": {
-              "type": "SharedSlice"
-            },
             "reassurance": {
               "type": "SharedSlice"
             }
