@@ -1,0 +1,17 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "text",
+    "items": [],
+    "primary": {
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Irure excepteur aliqua deserunt enim dolore qui occaecat do.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

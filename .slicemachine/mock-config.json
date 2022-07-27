@@ -13,7 +13,15 @@
     },
     "about": {},
     "contact": {},
-    "blog": {}
+    "blog": {},
+    "blog-article": {
+      "authorName": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    }
   },
   "slices": {
     "Features": {
@@ -150,6 +158,31 @@
     "ScrollingCards": {
       "default": {
         "primary": {}
+      }
+    },
+    "Text": {
+      "default": {
+        "items": {},
+        "primary": {
+          "text": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Image": {
+      "default": {
+        "primary": {
+          "caption": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
       }
     }
   }

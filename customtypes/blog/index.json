@@ -28,6 +28,9 @@
           "choices": {
             "scrolling_cards": {
               "type": "SharedSlice"
+            },
+            "featured_blog_posts": {
+              "type": "SharedSlice"
             }
           }
         }

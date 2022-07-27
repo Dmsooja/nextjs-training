@@ -1,0 +1,56 @@
+{
+  "id": "7b470b65-1ab2-4bdb-8910-3e50cc6e0606",
+  "uid": "odio-veritatis-aspernatur",
+  "type": "blog-article",
+  "data": {
+    "title": [
+      {
+        "type": "paragraph",
+        "text": "Esse esse irure eiusmod.",
+        "spans": []
+      }
+    ],
+    "category": [
+      {
+        "type": "paragraph",
+        "text": "Ipsum non esse sint laboris sint commodo irure esse reprehenderit.",
+        "spans": []
+      }
+    ],
+    "featuredImage": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
+    },
+    "authorName": [
+      {
+        "type": "paragraph",
+        "text": "Ad veniam elit irure laborum aliqua ipsum.",
+        "spans": []
+      }
+    ],
+    "authorImage": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
+    },
+    "date": "2013-09-12",
+    "dateTime": "2014-04-06T10:50:14.222Z",
+    "readingTime": 2145,
+    "description": [
+      {
+        "type": "paragraph",
+        "text": "Irure cupidatat est nostrud sit exercitation Lorem aute Lorem mollit exercitation reprehenderit duis culpa.",
+        "spans": []
+      }
+    ]
+  }
+}

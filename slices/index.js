@@ -6,9 +6,11 @@ import FeaturedBlogPosts from './FeaturedBlogPosts';
 import Features from './Features';
 import FooterLinks from './FooterLinks';
 import HeroSection from './HeroSection';
+import Image from './Image';
 import Reassurance from './Reassurance';
 import ScrollingCards from './ScrollingCards';
 import TestSlice from './TestSlice';
+import Text from './Text';
 
 export {
 	Cta,
@@ -17,9 +19,11 @@ export {
 	Features,
 	FooterLinks,
 	HeroSection,
+	Image,
 	Reassurance,
 	ScrollingCards,
 	TestSlice,
+	Text,
 };
 
 export const components = {
@@ -29,7 +33,9 @@ export const components = {
 	features: Features,
 	footer_links: FooterLinks,
 	hero_section: HeroSection,
+	image: Image,
 	reassurance: Reassurance,
 	scrolling_cards: ScrollingCards,
 	test_slice: TestSlice,
+	text: Text,
 };
