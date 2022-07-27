@@ -42,11 +42,11 @@ const FeaturedBlogPosts = ({ slice }) => (
                       </a>
                     </div>
                     <div className="ml-3">
-                      <p className="text-sm font-medium text-gray-900">
+                      <div className="text-sm font-medium text-gray-900">
                         <a href={Link.url(item.authorLink)} className="hover:underline">
                           <RichText render={item.authorName} />
                         </a>
-                      </p>
+                      </div>
                       <div className="flex space-x-1 text-sm text-gray-500">
                         <time dateTime={item.articleDateTime}>{ParseDate(item.articleDate)}</time>
                         <span aria-hidden="true">&middot;</span>
