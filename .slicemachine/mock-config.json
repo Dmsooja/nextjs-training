@@ -90,6 +90,9 @@
             }
           }
         }
+      },
+      "heroSectionNoCta": {
+        "primary": {}
       }
     },
     "FeaturedBlogPosts": {
@@ -97,6 +100,12 @@
         "items": {
           "articleReadingTime": {
             "content": 3
+          },
+          "articleDateTime": {
+            "content": "2022-07-27T09:50:06.195Z"
+          },
+          "articleDate": {
+            "content": "2022-07-27"
           }
         }
       }

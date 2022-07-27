@@ -1,10 +1,12 @@
 import React from 'react';
 import { RichText, Date as ParseDate, Link } from 'prismic-reactjs';
 
+const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
 
 const FeaturedBlogPosts = ({ slice }) => (
+  
   <section>
-    <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+    <div className="relative bg-primarygreen pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
       <div className="absolute inset-0">
         <div className="bg-white h-1/3 sm:h-2/3" />
       </div>
@@ -17,6 +19,7 @@ const FeaturedBlogPosts = ({ slice }) => (
         </div>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           {slice?.items?.map((item, idx) => {
+            // debugger
             return (
               <div key={idx} className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                 <div className="flex-shrink-0">
@@ -48,7 +51,7 @@ const FeaturedBlogPosts = ({ slice }) => (
                         </a>
                       </div>
                       <div className="flex space-x-1 text-sm text-gray-500">
-                        <time dateTime={item.articleDateTime}>{ParseDate(item.articleDate)}</time>
+                        <time dateTime={item.articleDate}>{new Date(item.articleDateTime).toLocaleDateString("fr-FR", dateOptions)}</time>
                         <span aria-hidden="true">&middot;</span>
 
                         <span>{item.articleReadingTime} min read</span>

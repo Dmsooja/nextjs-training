@@ -2,6 +2,8 @@ import React from 'react';
 import { RichText } from 'prismic-reactjs';
 import { Link } from 'prismic-reactjs';
 
+
+// With scrolling cards - https://tailwindui.com/components/ecommerce/components/category-previews#component-6ebe66c8103e943e840fd4dbf1cf8ab7
 const ScrollingCards = ({ slice }) => (
   <section>
     <div className="bg-white">

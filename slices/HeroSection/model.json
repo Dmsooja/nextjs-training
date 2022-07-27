@@ -58,6 +58,124 @@
             "allowTargetBlank": true,
             "single": "paragraph,strong"
           }
+        },
+        "primaryImage": {
+          "type": "Image",
+          "config": {
+            "label": "Primary Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "heroSectionNoCta",
+      "name": "HeroSection - no CTA",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "HeroSection",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your feature"
+          }
+        },
+        "primaryImage": {
+          "type": "Image",
+          "config": {
+            "label": "Primary Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "twoimages",
+      "name": "twoimages",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "HeroSection",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your feature"
+          }
+        },
+        "primaryCta": {
+          "type": "Link",
+          "config": {
+            "label": "Primary Cta",
+            "select": "document"
+          }
+        },
+        "primaryCtaText": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Primary Cta Text",
+            "placeholder": "Primary CTA",
+            "allowTargetBlank": true,
+            "single": "paragraph,strong"
+          }
+        },
+        "secondaryCta": {
+          "type": "Link",
+          "config": {
+            "label": "Secondary Cta",
+            "select": "document"
+          }
+        },
+        "secondaryCtaText": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Secondary Cta Text",
+            "placeholder": "Secondary CTA",
+            "allowTargetBlank": true,
+            "single": "paragraph,strong"
+          }
+        },
+        "primaryImage": {
+          "type": "Image",
+          "config": {
+            "label": "Primary Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "secondaryImage": {
+          "type": "Image",
+          "config": {
+            "label": "Secondary Image",
+            "constraint": {},
+            "thumbnails": []
+          }
         }
       },
       "items": {},

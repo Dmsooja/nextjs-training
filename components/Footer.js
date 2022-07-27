@@ -37,7 +37,7 @@ const socialLinks = (footer) => {
 
 const copyright = (footer) => {
   return (
-    <span className="mt-8 text-center text-base text-gray-400"><RichText render={footer.data?.copyright} /></span>
+    <span className="px-4 mt-8 text-center text-base text-gray-400"><RichText render={footer.data?.copyright} /></span>
   )
 }
 

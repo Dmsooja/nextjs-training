@@ -41,7 +41,10 @@
           "type": "Image",
           "config": {
             "label": "Article Image",
-            "constraint": {},
+            "constraint": {
+              "width": 1679,
+              "height": 1119
+            },
             "thumbnails": []
           }
         },
@@ -75,7 +78,10 @@
           "type": "Image",
           "config": {
             "label": "Author Image",
-            "constraint": {},
+            "constraint": {
+              "width": 256,
+              "height": 256
+            },
             "thumbnails": []
           }
         },
@@ -92,14 +98,14 @@
           "type": "Timestamp",
           "config": {
             "label": "Article Date Time",
-            "placeholder": ""
+            "placeholder": "MM/DD/YYYY"
           }
         },
         "articleDate": {
           "type": "Date",
           "config": {
             "label": "Article Date",
-            "placeholder": ""
+            "placeholder": "MM/DD/YYYY"
           }
         },
         "articleReadingTime": {
