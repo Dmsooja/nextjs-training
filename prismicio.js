@@ -14,10 +14,10 @@ export function linkResolver(doc) {
       return '/playground'
     case 'blog':
       return '/blog'
+      case 'blog-article':
+      return `/${doc.uid}`
     case 'about':
       return '/about'
-    case 'page':
-      return `/${doc.uid}`
     default:
       return null
   }

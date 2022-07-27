@@ -3,6 +3,7 @@
 import Cta from './Cta';
 import Faq from './Faq';
 import FeaturedBlogPosts from './FeaturedBlogPosts';
+import FeaturedProducts from './FeaturedProducts';
 import Features from './Features';
 import FooterLinks from './FooterLinks';
 import HeroSection from './HeroSection';
@@ -16,6 +17,7 @@ export {
 	Cta,
 	Faq,
 	FeaturedBlogPosts,
+	FeaturedProducts,
 	Features,
 	FooterLinks,
 	HeroSection,
@@ -30,6 +32,7 @@ export const components = {
 	cta: Cta,
 	faq: Faq,
 	featured_blog_posts: FeaturedBlogPosts,
+	featured_products: FeaturedProducts,
 	features: Features,
 	footer_links: FooterLinks,
 	hero_section: HeroSection,

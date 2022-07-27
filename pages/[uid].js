@@ -23,7 +23,7 @@ export async function getStaticProps({ params, previewData }) {
   const client = createClient({ previewData });
 
   // Query the page
-  const page = await client.getByUID("page", params.uid);
+  const page = await client.getByUID("blog-article", params.uid);
 
   // Query the navigation
   const footer = await client.getSingle("footer");
@@ -49,9 +49,9 @@ export async function getStaticProps({ params, previewData }) {
 // determines all of the routes for statically-generated dynamic pages
 export async function getStaticPaths() {
   const client = createClient()
-  const documents = await client.getAllByType('page')
+  const documents = await client.getAllByType('blog-article')
   return {
     paths: documents.map((doc) => prismicH.asLink(doc, linkResolver)),
-    fallback: true,
+    fallback: true, //if a page has already been generated but doesn't show => display the cached page
   }
 }

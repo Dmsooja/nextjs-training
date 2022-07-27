@@ -1,19 +1,19 @@
 {
-  "id": "7b470b65-1ab2-4bdb-8910-3e50cc6e0606",
-  "uid": "odio-veritatis-aspernatur",
+  "id": "131ad8d2-ffd7-4438-a44e-5352825a9382",
+  "uid": "laboriosam-hic-distinctio",
   "type": "blog-article",
   "data": {
     "title": [
       {
         "type": "paragraph",
-        "text": "Esse esse irure eiusmod.",
+        "text": "Cillum irure exercitation sint amet.",
         "spans": []
       }
     ],
     "category": [
       {
         "type": "paragraph",
-        "text": "Ipsum non esse sint laboris sint commodo irure esse reprehenderit.",
+        "text": "Quis ullamco do in laborum voluptate est quis elit consectetur do aute culpa. Excepteur esse irure id reprehenderit et tempor ad culpa pariatur aliqua. Labore cupidatat voluptate tempor duis dolor occaecat fugiat mollit laborum aute ullamco.",
         "spans": []
       }
     ],
@@ -24,12 +24,12 @@
       },
       "alt": "Placeholder image",
       "copyright": null,
-      "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
+      "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=900&h=500&fit=crop"
     },
     "authorName": [
       {
         "type": "paragraph",
-        "text": "Ad veniam elit irure laborum aliqua ipsum.",
+        "text": "Ipsum occaecat non exercitation do ullamco voluptate Lorem adipisicing pariatur. Irure duis sit consequat occaecat velit. Nisi ut elit ad ad tempor Lorem laborum.",
         "spans": []
       }
     ],
@@ -40,15 +40,15 @@
       },
       "alt": "Placeholder image",
       "copyright": null,
-      "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
+      "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=900&h=500&fit=crop"
     },
-    "date": "2013-09-12",
-    "dateTime": "2014-04-06T10:50:14.222Z",
-    "readingTime": 2145,
+    "date": "2022-06-10",
+    "dateTime": "2018-07-15T09:09:00.726Z",
+    "readingTime": 2634,
     "description": [
       {
         "type": "paragraph",
-        "text": "Irure cupidatat est nostrud sit exercitation Lorem aute Lorem mollit exercitation reprehenderit duis culpa.",
+        "text": "Non ad et sunt in minim adipisicing mollit ex ipsum sunt culpa consectetur excepteur.",
         "spans": []
       }
     ]
