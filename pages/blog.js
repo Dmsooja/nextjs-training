@@ -8,10 +8,17 @@ import { components } from '../slices/index'
 const __allComponents = { ...components }
 
 
-export default function Blog({ doc, menu, footer }) {
+export default function Blog({ doc, articles, menu, footer }) {
     return (
-        <div> 
+        <div>
             <Layout menu={menu} footer={footer}>
+            <ul className="grid grid-cols-1 gap-16">
+                {articles.map((article) => (
+                    <li key={article.id}>
+                        {article.title}
+                    </li>
+                ))}
+            </ul>
                 <SliceZone slices={doc.data.slices} components={__allComponents} />
             </Layout>
         </div>
@@ -36,6 +43,10 @@ export async function getStaticProps({ previewData }) {
         return null
     }));
 
+    // Query the articles
+    const articles = await client.getAllByType("blog-article").catch(e => {
+        return null
+    });
 
     if (!document) {
         return {
@@ -47,7 +58,8 @@ export async function getStaticProps({ previewData }) {
         props: {
             doc: document,
             menu: menu,
-            footer: footer
+            footer: footer,
+            articles: articles
         },
     }
 }
