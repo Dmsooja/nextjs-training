@@ -1,40 +1,66 @@
 {
-    "id": "menu",
-    "label": "Menu",
-    "repeatable": false,
-    "json": {
-      "Main": {
-        "title": {
-          "type": "StructuredText",
-          "config": {
-            "placeholder": "Menu title...",
-            "single": "heading1"
-          }
-        },
-        "menuLinks": {
-          "type": "Group",
-          "config": {
-            "label": "Menu Links",
-            "placeholder": "",
-            "fields": {
-              "label": {
-                "type": "StructuredText",
-                "config": {
-                  "single": "paragraph",
-                  "label": "Link Label",
-                  "placeholder": "Link Label..."
-                }
-              },
-              "link": {
-                "type": "Link",
-                "config": {
-                  "label": "Link",
-                  "placeholder": "Select a Link..."
-                }
+  "id": "menu",
+  "label": "Menu",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "placeholder": "Menu title...",
+          "single": "heading1"
+        }
+      },
+      "menuLinks": {
+        "type": "Group",
+        "config": {
+          "label": "Menu Links",
+          "fields": {
+            "label": {
+              "type": "StructuredText",
+              "config": {
+                "single": "paragraph",
+                "label": "Link Label",
+                "placeholder": "Link Label..."
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "Select a Link...",
+                "select": null
               }
             }
           }
         }
+      },
+      "dropdownMenu": {
+        "type": "Group",
+        "config": {
+          "label": "Dropdown Menu",
+          "fields": {
+            "menuItems": {
+              "type": "Link",
+              "config": {
+                "label": "Menu Items",
+                "select": "document",
+                "customtypes": [
+                  "menu-dropdown-links"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
       }
     }
   }
+}

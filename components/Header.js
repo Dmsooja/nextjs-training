@@ -19,6 +19,16 @@ export const Header = ({ menu }) => (
             )
           })}
         </ul>
+        {/* <ul className="-ml-5 -mt-5 flex justify-end">
+          {menu.data?.dropdownMenu?.map((item, idx) => {
+            console.log(item.menuItems);
+            return (
+              <li key={idx} className="pt-5 pl-5">
+                {item?.data?.title}
+              </li>
+            )
+          })}
+        </ul> */}
       </nav>
     </div>
   </header>

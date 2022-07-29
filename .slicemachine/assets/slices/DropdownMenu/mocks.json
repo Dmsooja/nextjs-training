@@ -1,0 +1,82 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "dropdown_menu",
+    "items": [
+      {
+        "subMenuTitle": [
+          {
+            "type": "heading3",
+            "text": "Grow cross-media e-services",
+            "spans": []
+          }
+        ],
+        "linkTitle": [
+          {
+            "type": "paragraph",
+            "text": "Ut nisi elit ea Lorem consectetur anim ipsum sit. Fugiat eiusmod laborum sit duis labore anim. Lorem deserunt laboris aliqua ipsum elit est cillum officia occaecat occaecat occaecat nisi aliquip irure.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "subMenuTitle": [
+          {
+            "type": "heading3",
+            "text": "Scale clicks-and-mortar e-commerce",
+            "spans": []
+          }
+        ],
+        "linkTitle": [
+          {
+            "type": "paragraph",
+            "text": "Aliquip minim cupidatat sit cillum ex proident qui occaecat sit elit proident est commodo deserunt id.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "subMenuTitle": [
+          {
+            "type": "heading3",
+            "text": "Redefine visionary initiatives",
+            "spans": []
+          }
+        ],
+        "linkTitle": [
+          {
+            "type": "paragraph",
+            "text": "Aute magna laboris eiusmod in sint minim ut aliquip laborum sit commodo. Occaecat laboris ex nulla labore ipsum consectetur qui aliqua amet do est ad commodo. Ad commodo et officia cupidatat exercitation sunt et officia elit amet quis.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "subMenuTitle": [
+          {
+            "type": "heading3",
+            "text": "Revolutionize cross-platform mindshare",
+            "spans": []
+          }
+        ],
+        "linkTitle": [
+          {
+            "type": "paragraph",
+            "text": "Mollit veniam ut aliqua sunt occaecat anim aute proident consequat non pariatur. Labore cillum ipsum adipisicing duis exercitation ea elit est deserunt non mollit dolore. Labore in Lorem est eiusmod labore reprehenderit anim nisi id.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "paragraph",
+          "text": "Non mollit duis sit amet qui adipisicing sit. Velit consectetur sit eiusmod commodo duis irure enim ipsum occaecat consequat dolore proident. Aute mollit cillum nisi est exercitation exercitation dolore qui enim.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]
