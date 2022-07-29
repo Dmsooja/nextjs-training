@@ -1,0 +1,17 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "article_list_container",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading2",
+          "text": "Extend visionary web services",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

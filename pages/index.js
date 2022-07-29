@@ -1,11 +1,13 @@
-import { SliceZone } from "@prismicio/react"
-import { Layout } from "../components/Layout"
-import { createClient } from '../prismicio'
-import { components } from '../slices/index'
+import { SliceZone } from "@prismicio/react";
+import { Layout } from "../components/Layout";
+import { createClient } from '../prismicio';
+import { components } from '../slices/index';
+import { menuGraphQuery } from "../queries";
 
 // Menu graphQuery
 
 const __allComponents = { ...components }
+
 
 export default function Home({ doc, menu, footer }) {
   return (
@@ -41,7 +43,10 @@ export async function getStaticProps({ previewData }) {
     return null
   }));
 
-  const menu = (await client.getSingle("menu").catch(e => {
+  const menu = (await client.getSingle(
+    "menu", 
+    // {'graphQuery': menuGraphQuery}
+    ).catch(e => {
     return null
   }));
 

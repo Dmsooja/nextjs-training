@@ -21,7 +21,11 @@
           "blocks": 1
         }
       }
-    }
+    },
+    "menu": {
+      "dropdownMenu": {}
+    },
+    "menu-dropdown-links": {}
   },
   "slices": {
     "Features": {
@@ -116,6 +120,10 @@
             "content": "2022-07-27"
           }
         }
+      },
+      "featuredArticlesCr": {
+        "items": {},
+        "primary": {}
       }
     },
     "Faq": {
@@ -211,6 +219,38 @@
           "price": {
             "config": {
               "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "ArticleListContainer": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "DropdownMenu": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "subMenuTitle": {
+            "config": {
+              "patternType": "HEADING",
               "blocks": 1
             }
           }
