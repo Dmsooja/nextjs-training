@@ -95,7 +95,7 @@ export async function getStaticProps({ previewData }) {
 
     debugger
     const menu = (
-        await client.getSingle("menu", {'graphQuery': menuGraphQuery}
+        await client.getSingle("menu",
         )
     // .catch(e => {return null})
     .catch(e => {console.log(e)})

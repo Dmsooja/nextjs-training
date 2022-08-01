@@ -135,10 +135,10 @@
         }
       },
       "items": {
-        "crTitle": {
+        "articleLink": {
           "type": "Link",
           "config": {
-            "label": "Cr Title",
+            "label": "Article link",
             "select": "document",
             "customtypes": [
               "blog-article"

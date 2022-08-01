@@ -2,9 +2,11 @@ import { SliceZone } from "@prismicio/react";
 import { Layout } from "../components/Layout";
 import { createClient } from '../prismicio';
 import { components } from '../slices/index';
-import { menuGraphQuery } from "../queries";
+import { menuGraphQuery, blogArticlesGraphQuery } from "../queries";
+
 
 // Menu graphQuery
+
 
 const __allComponents = { ...components }
 
@@ -21,6 +23,7 @@ export default function Home({ doc, menu, footer }) {
 
 // Query data
 export async function getStaticProps({ previewData }) {
+  debugger
   const client = createClient(previewData)
 
   // Exemple querying playground page
@@ -34,9 +37,10 @@ export async function getStaticProps({ previewData }) {
   // }
 
   // Query the homepage and render it
-  const document = (await client.getSingle('homepage').catch(e => {
-    return null
+  const document = (await client.getSingle('homepage', { graphQuery: blogArticlesGraphQuery }).catch(e => {
+    console.log(e);
   }));
+
 
   // Query the navigation
   const footer = (await client.getSingle("footer").catch(e => {
@@ -61,7 +65,7 @@ export async function getStaticProps({ previewData }) {
     props: {
       doc: document,
       menu: menu,
-      footer: footer
+      footer: footer,
     }, // will be passed to the page component as props
   }
 }
