@@ -1,15 +1,17 @@
 export const menuGraphQuery =
-`{
+`
+{
 menu{
 dropdownMenu{
 menuItems{
 ...onmenu-dropdown-links{
-title
+...menu-dropdown-linksFields
 }
 }
 }
 }
-}`
+}
+`
 
 export const blogArticlesGraphQuery = `
 {
