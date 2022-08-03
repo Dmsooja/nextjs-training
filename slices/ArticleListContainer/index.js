@@ -9,8 +9,8 @@ const ArticleListContainer = ({ slice }) => (
       </div>
       <div>
         <ul role="list" className="space-y-3">
-          {items.map((item) => (
-            <li key={item.id} className="bg-white shadow overflow-hidden rounded-md px-6 py-4">
+          {slice?.items?.map((item,  idx) => (
+            <li key={idx} className="bg-white shadow overflow-hidden rounded-md px-6 py-4">
               {/* Your content */}
             </li>
           ))}
