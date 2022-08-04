@@ -34,7 +34,10 @@
         "type": "Image",
         "config": {
           "label": "Featured Image",
-          "constraint": {},
+          "constraint": {
+            "width": 512,
+            "height": 192
+          },
           "thumbnails": []
         }
       },

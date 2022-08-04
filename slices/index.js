@@ -10,6 +10,7 @@ import Features from './Features';
 import FooterLinks from './FooterLinks';
 import HeroSection from './HeroSection';
 import Image from './Image';
+import MenuLink from './MenuLink';
 import Reassurance from './Reassurance';
 import ScrollingCards from './ScrollingCards';
 import TestSlice from './TestSlice';
@@ -26,6 +27,7 @@ export {
 	FooterLinks,
 	HeroSection,
 	Image,
+	MenuLink,
 	Reassurance,
 	ScrollingCards,
 	TestSlice,
@@ -43,6 +45,7 @@ export const components = {
 	footer_links: FooterLinks,
 	hero_section: HeroSection,
 	image: Image,
+	menu_link: MenuLink,
 	reassurance: Reassurance,
 	scrolling_cards: ScrollingCards,
 	test_slice: TestSlice,

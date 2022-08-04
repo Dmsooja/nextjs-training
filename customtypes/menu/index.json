@@ -5,6 +5,23 @@
   "status": true,
   "json": {
     "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "Uid",
+          "placeholder": ""
+        }
+      },
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "Logo",
+          "constraint": {
+            "height": 40
+          },
+          "thumbnails": []
+        }
+      },
       "title": {
         "type": "StructuredText",
         "config": {
@@ -58,7 +75,14 @@
         "type": "Slices",
         "fieldset": "Slice Zone",
         "config": {
-          "choices": {}
+          "choices": {
+            "dropdown_menu": {
+              "type": "SharedSlice"
+            },
+            "menu_link": {
+              "type": "SharedSlice"
+            }
+          }
         }
       }
     }

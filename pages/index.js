@@ -37,10 +37,13 @@ export async function getStaticProps({ previewData }) {
   // }
 
   // Query the homepage and render it
-  const document = (await client.getSingle('homepage', { graphQuery: blogArticlesGraphQuery }).catch(e => {
-    console.log(e);
-  }));
+  // const document = (await client.getSingle('homepage').catch(e => {
+  //   return null;
+  // }));
 
+  const document = (await client.getSingle('homepage', { graphQuery: blogArticlesGraphQuery }).catch(e => {
+    return null;
+  }));
 
   // Query the navigation
   const footer = (await client.getSingle("footer").catch(e => {

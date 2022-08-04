@@ -1,0 +1,121 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "menu_link",
+    "items": [
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "linkLabel": [
+          {
+            "type": "paragraph",
+            "text": "Nulla amet eiusmod id excepteur sint. Consectetur consequat consectetur et nisi Lorem non nulla. Irure qui nisi officia dolor reprehenderit voluptate proident nostrud ut ullamco sint aliquip.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "linkLabel": [
+          {
+            "type": "paragraph",
+            "text": "Minim sit esse magna id ullamco proident proident. Laboris duis eu culpa aliqua nisi ut voluptate reprehenderit qui proident. Reprehenderit duis sunt veniam nostrud.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "linkLabel": [
+          {
+            "type": "paragraph",
+            "text": "Aliquip pariatur esse eiusmod esse laboris amet magna veniam.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {}
+  },
+  {
+    "variation": "dropdownMenuLink",
+    "name": "Dropdown Menu Link",
+    "slice_type": "menu_link",
+    "items": [
+      {
+        "dropdownLevel2Label": [
+          {
+            "type": "paragraph",
+            "text": "Velit ipsum anim sit do sint irure ex fugiat commodo excepteur voluptate magna. Fugiat deserunt ut aliquip irure adipisicing nisi ullamco excepteur non in.",
+            "spans": []
+          }
+        ],
+        "dropdownLevel2Link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "dropdownLevel2Label": [
+          {
+            "type": "paragraph",
+            "text": "Tempor pariatur cillum est commodo quis veniam magna aliqua dolore laborum nulla anim.",
+            "spans": []
+          }
+        ],
+        "dropdownLevel2Link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "dropdownLevel2Label": [
+          {
+            "type": "paragraph",
+            "text": "Do minim voluptate aliqua proident laborum dolor nisi nisi mollit Lorem. Esse reprehenderit voluptate minim ipsum ea ea culpa est fugiat et quis et id.",
+            "spans": []
+          }
+        ],
+        "dropdownLevel2Link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "dropdownLevel2Label": [
+          {
+            "type": "paragraph",
+            "text": "Commodo qui ut exercitation exercitation elit nisi labore laborum veniam.",
+            "spans": []
+          }
+        ],
+        "dropdownLevel2Link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      }
+    ],
+    "primary": {
+      "dropdownLevel1Label": [
+        {
+          "type": "paragraph",
+          "text": "Deserunt sit nostrud esse quis ex commodo veniam minim non ex enim aute. Non qui voluptate aliqua.",
+          "spans": []
+        }
+      ],
+      "dropdownLevel1Link": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      }
+    }
+  }
+]

@@ -25,7 +25,14 @@
     "menu": {
       "dropdownMenu": {}
     },
-    "menu-dropdown-links": {}
+    "menu-dropdown-links": {
+      "firstLevelLabel": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    }
   },
   "slices": {
     "Features": {
@@ -251,6 +258,37 @@
           "subMenuTitle": {
             "config": {
               "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "MenuLink": {
+      "default": {
+        "primary": {},
+        "items": {
+          "linkLabel": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      },
+      "dropdownMenuLink": {
+        "primary": {
+          "dropdownLevel1Label": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "dropdownLevel2Label": {
+            "config": {
+              "patternType": "PARAGRAPH",
               "blocks": 1
             }
           }

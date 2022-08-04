@@ -55,7 +55,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/dianka/Documents/Training/nextjs-training/.slicemachine/assets/slices/ArticleListContainer/default/preview.png",
+            "width": 800,
+            "height": 40
+          }
+        }
       },
       "cta": {
         "library": "slices",
@@ -295,7 +301,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/dianka/Documents/Training/nextjs-training/.slicemachine/assets/slices/DropdownMenu/default/preview.png",
+            "width": 800,
+            "height": 120
+          }
+        }
       },
       "faq": {
         "library": "slices",
@@ -403,7 +415,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/dianka/Documents/Training/nextjs-training/.slicemachine/assets/slices/Faq/default/preview.png",
+            "width": 800,
+            "height": 403
+          }
+        }
       },
       "featured_blog_posts": {
         "library": "slices",
@@ -839,7 +857,18 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/dianka/Documents/Training/nextjs-training/.slicemachine/assets/slices/FeaturedBlogPosts/default/preview.png",
+            "width": 800,
+            "height": 2196
+          },
+          "featuredArticlesCr": {
+            "path": "/Users/dianka/Documents/Training/nextjs-training/.slicemachine/assets/slices/FeaturedBlogPosts/featuredArticlesCr/preview.png",
+            "width": 800,
+            "height": 1540
+          }
+        }
       },
       "featured_products": {
         "library": "slices",
@@ -1804,7 +1833,23 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/dianka/Documents/Training/nextjs-training/.slicemachine/assets/slices/HeroSection/default/preview.png",
+            "width": 800,
+            "height": 486
+          },
+          "heroSectionNoCta": {
+            "path": "/Users/dianka/Documents/Training/nextjs-training/.slicemachine/assets/slices/HeroSection/heroSectionNoCta/preview.png",
+            "width": 800,
+            "height": 296
+          },
+          "twoimages": {
+            "path": "/Users/dianka/Documents/Training/nextjs-training/.slicemachine/assets/slices/HeroSection/twoimages/preview.png",
+            "width": 800,
+            "height": 506
+          }
+        }
       },
       "image": {
         "library": "slices",
@@ -1877,7 +1922,238 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/dianka/Documents/Training/nextjs-training/.slicemachine/assets/slices/Image/default/preview.png",
+            "width": 800,
+            "height": 481
+          }
+        }
+      },
+      "menu_link": {
+        "library": "slices",
+        "id": "menu_link",
+        "name": "MenuLink",
+        "description": "MenuLink",
+        "model": {
+          "id": "menu_link",
+          "type": "SharedSlice",
+          "name": "MenuLink",
+          "description": "MenuLink",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "MenuLink",
+              "primary": {},
+              "items": {
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "linkLabel": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Link Label",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "dropdownMenuLink",
+              "name": "Dropdown Menu Link",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "MenuLink",
+              "primary": {
+                "dropdownLevel1Label": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Dropdown Level 1 Label",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "dropdownLevel1Link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Dropdown Level1Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "items": {
+                "dropdownLevel2Label": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Dropdown Level 2 Label",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "dropdownLevel2Link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Dropdown Level2Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "menu_link",
+            "items": [
+              {
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                },
+                "linkLabel": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nulla amet eiusmod id excepteur sint. Consectetur consequat consectetur et nisi Lorem non nulla. Irure qui nisi officia dolor reprehenderit voluptate proident nostrud ut ullamco sint aliquip.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                },
+                "linkLabel": [
+                  {
+                    "type": "paragraph",
+                    "text": "Minim sit esse magna id ullamco proident proident. Laboris duis eu culpa aliqua nisi ut voluptate reprehenderit qui proident. Reprehenderit duis sunt veniam nostrud.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                },
+                "linkLabel": [
+                  {
+                    "type": "paragraph",
+                    "text": "Aliquip pariatur esse eiusmod esse laboris amet magna veniam.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {}
+          },
+          "dropdownMenuLink": {
+            "variation": "dropdownMenuLink",
+            "name": "Dropdown Menu Link",
+            "slice_type": "menu_link",
+            "items": [
+              {
+                "dropdownLevel2Label": [
+                  {
+                    "type": "paragraph",
+                    "text": "Velit ipsum anim sit do sint irure ex fugiat commodo excepteur voluptate magna. Fugiat deserunt ut aliquip irure adipisicing nisi ullamco excepteur non in.",
+                    "spans": []
+                  }
+                ],
+                "dropdownLevel2Link": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              },
+              {
+                "dropdownLevel2Label": [
+                  {
+                    "type": "paragraph",
+                    "text": "Tempor pariatur cillum est commodo quis veniam magna aliqua dolore laborum nulla anim.",
+                    "spans": []
+                  }
+                ],
+                "dropdownLevel2Link": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              },
+              {
+                "dropdownLevel2Label": [
+                  {
+                    "type": "paragraph",
+                    "text": "Do minim voluptate aliqua proident laborum dolor nisi nisi mollit Lorem. Esse reprehenderit voluptate minim ipsum ea ea culpa est fugiat et quis et id.",
+                    "spans": []
+                  }
+                ],
+                "dropdownLevel2Link": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              },
+              {
+                "dropdownLevel2Label": [
+                  {
+                    "type": "paragraph",
+                    "text": "Commodo qui ut exercitation exercitation elit nisi labore laborum veniam.",
+                    "spans": []
+                  }
+                ],
+                "dropdownLevel2Link": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              }
+            ],
+            "primary": {
+              "dropdownLevel1Label": [
+                {
+                  "type": "paragraph",
+                  "text": "Deserunt sit nostrud esse quis ex commodo veniam minim non ex enim aute. Non qui voluptate aliqua.",
+                  "spans": []
+                }
+              ],
+              "dropdownLevel1Link": {
+                "link_type": "Web",
+                "url": "https://prismic.io"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/dianka/Documents/Training/nextjs-training/.slicemachine/assets/slices/MenuLink/default/preview.png",
+            "width": 800,
+            "height": 28
+          },
+          "dropdownMenuLink": {
+            "path": "/Users/dianka/Documents/Training/nextjs-training/.slicemachine/assets/slices/MenuLink/dropdownMenuLink/preview.png",
+            "width": 800,
+            "height": 24
+          }
+        }
       },
       "reassurance": {
         "library": "slices",
@@ -2209,7 +2485,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/dianka/Documents/Training/nextjs-training/.slicemachine/assets/slices/ScrollingCards/default/preview.png",
+            "width": 800,
+            "height": 592
+          }
+        }
       },
       "test_slice": {
         "library": "slices",

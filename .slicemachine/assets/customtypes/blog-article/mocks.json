@@ -1,35 +1,35 @@
 {
-  "id": "131ad8d2-ffd7-4438-a44e-5352825a9382",
-  "uid": "laboriosam-hic-distinctio",
+  "id": "8c46c029-d38a-4da9-8acc-047032a3b398",
+  "uid": "asperiores-quo-quasi",
   "type": "blog-article",
   "data": {
     "title": [
       {
         "type": "paragraph",
-        "text": "Cillum irure exercitation sint amet.",
+        "text": "Elit enim Lorem eiusmod. Sunt pariatur qui cupidatat ullamco irure do.",
         "spans": []
       }
     ],
     "category": [
       {
         "type": "paragraph",
-        "text": "Quis ullamco do in laborum voluptate est quis elit consectetur do aute culpa. Excepteur esse irure id reprehenderit et tempor ad culpa pariatur aliqua. Labore cupidatat voluptate tempor duis dolor occaecat fugiat mollit laborum aute ullamco.",
+        "text": "Sunt commodo voluptate aliquip consectetur elit veniam. Lorem qui qui laborum fugiat Lorem minim. Aute dolore cupidatat anim nisi officia mollit culpa nulla.",
         "spans": []
       }
     ],
     "featuredImage": {
       "dimensions": {
-        "width": 900,
-        "height": 500
+        "width": 512,
+        "height": 192
       },
       "alt": "Placeholder image",
       "copyright": null,
-      "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=900&h=500&fit=crop"
+      "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=512&h=192&fit=crop"
     },
     "authorName": [
       {
         "type": "paragraph",
-        "text": "Ipsum occaecat non exercitation do ullamco voluptate Lorem adipisicing pariatur. Irure duis sit consequat occaecat velit. Nisi ut elit ad ad tempor Lorem laborum.",
+        "text": "Pariatur officia sunt in.",
         "spans": []
       }
     ],
@@ -40,15 +40,15 @@
       },
       "alt": "Placeholder image",
       "copyright": null,
-      "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=900&h=500&fit=crop"
+      "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
     },
-    "date": "2022-06-10",
-    "dateTime": "2018-07-15T09:09:00.726Z",
-    "readingTime": 2634,
+    "date": "2015-05-13",
+    "dateTime": "2017-04-29T17:28:15.104Z",
+    "readingTime": 9868,
     "description": [
       {
         "type": "paragraph",
-        "text": "Non ad et sunt in minim adipisicing mollit ex ipsum sunt culpa consectetur excepteur.",
+        "text": "Est ad pariatur nulla velit deserunt. In aliquip proident officia. Commodo amet qui aliqua Lorem laborum.",
         "spans": []
       }
     ]

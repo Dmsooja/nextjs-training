@@ -1,6 +1,5 @@
 import React from 'react';
-import { RichText, Date as ParseDate, Link } from 'prismic-reactjs';
-import { PrismicLink } from '@prismicio/react';
+import { RichText, Link } from 'prismic-reactjs';
 
 const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
 
