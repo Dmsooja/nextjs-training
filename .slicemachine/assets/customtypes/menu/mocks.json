@@ -1,6 +1,6 @@
 {
-  "id": "dfcdcb9c-4adc-483e-b622-00a31e658628",
-  "uid": "ut-vitae-voluptatum",
+  "id": "0f0a8b46-afdb-409b-83bf-a03c3bbc2057",
+  "uid": "dicta-dicta-voluptatem",
   "type": "menu",
   "data": {
     "logo": {
@@ -10,99 +10,13 @@
       },
       "alt": "Placeholder image",
       "copyright": null,
-      "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=900&h=40&fit=crop"
+      "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=40&fit=crop"
     },
     "title": [
       {
         "type": "heading1",
-        "text": "Innovate seamless supply-chains",
+        "text": "Utilize granular systems",
         "spans": []
-      }
-    ],
-    "menuLinks": [
-      {
-        "label": [
-          {
-            "type": "paragraph",
-            "text": "Non ex qui esse mollit id veniam reprehenderit. Consequat in aliqua consectetur ea commodo irure ea occaecat veniam et pariatur irure occaecat non labore.",
-            "spans": []
-          }
-        ],
-        "link": {
-          "link_type": "Web",
-          "url": "http://twitter.com"
-        }
-      },
-      {
-        "label": [
-          {
-            "type": "paragraph",
-            "text": "Nostrud Lorem et mollit do incididunt excepteur. Amet qui ullamco sunt sit ullamco aliqua mollit voluptate nostrud id voluptate quis cillum.",
-            "spans": []
-          }
-        ],
-        "link": {
-          "link_type": "Web",
-          "url": "http://twitter.com"
-        }
-      },
-      {
-        "label": [
-          {
-            "type": "paragraph",
-            "text": "Ullamco id sit laborum Lorem duis. Irure ullamco aute proident culpa culpa deserunt quis dolore deserunt sit consequat in eiusmod Lorem. Cillum reprehenderit aliqua ut et culpa esse qui officia nostrud irure qui fugiat cillum cillum officia.",
-            "spans": []
-          }
-        ],
-        "link": {
-          "link_type": "Web",
-          "url": "https://slicemachine.dev"
-        }
-      },
-      {
-        "label": [
-          {
-            "type": "paragraph",
-            "text": "Laborum et enim non culpa dolore non mollit enim et aute. Ad laborum est esse enim nisi adipisicing ea quis in cupidatat culpa dolore. Fugiat cupidatat quis Lorem consectetur est laborum et elit pariatur nisi aliqua ea veniam aliquip.",
-            "spans": []
-          }
-        ],
-        "link": {
-          "link_type": "Web",
-          "url": "https://prismic.io"
-        }
-      }
-    ],
-    "dropdownMenu": [
-      {
-        "menuItems": {
-          "link_type": "Web",
-          "url": "https://prismic.io"
-        }
-      },
-      {
-        "menuItems": {
-          "link_type": "Web",
-          "url": "http://twitter.com"
-        }
-      },
-      {
-        "menuItems": {
-          "link_type": "Web",
-          "url": "https://prismic.io"
-        }
-      },
-      {
-        "menuItems": {
-          "link_type": "Web",
-          "url": "http://google.com"
-        }
-      },
-      {
-        "menuItems": {
-          "link_type": "Web",
-          "url": "http://google.com"
-        }
       }
     ]
   }

@@ -22,9 +22,7 @@
         }
       }
     },
-    "menu": {
-      "dropdownMenu": {}
-    },
+    "menu": {},
     "menu-dropdown-links": {
       "firstLevelLabel": {
         "config": {
