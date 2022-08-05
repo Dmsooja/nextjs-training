@@ -11,10 +11,10 @@ import { menuGraphQuery, blogArticlesGraphQuery } from "../queries";
 const __allComponents = { ...components }
 
 
-export default function Home({ doc, menu, footer }) {
+export default function Home({ doc, menu, footer, locale }) {
   return (
     <div>
-      <Layout menu={menu} footer={footer}>
+      <Layout menu={menu} footer={footer} altLangs={doc.alternate_languages}>
         <SliceZone slices={doc.data.slices} components={__allComponents} />
       </Layout>
     </div>
@@ -22,8 +22,7 @@ export default function Home({ doc, menu, footer }) {
 }
 
 // Query data
-export async function getStaticProps({ previewData }) {
-  debugger
+export async function getStaticProps({ previewData, locale }) {
   const client = createClient(previewData)
 
   // Exemple querying playground page
@@ -41,7 +40,7 @@ export async function getStaticProps({ previewData }) {
   //   return null;
   // }));
 
-  const document = (await client.getSingle('homepage', { graphQuery: blogArticlesGraphQuery }).catch(e => {
+  const document = (await client.getSingle('homepage', { graphQuery: blogArticlesGraphQuery, lang: locale }).catch(e => {
     return null;
   }));
 
@@ -69,6 +68,7 @@ export async function getStaticProps({ previewData }) {
       doc: document,
       menu: menu,
       footer: footer,
+      // locale: locale,
     }, // will be passed to the page component as props
   }
 }
