@@ -11,7 +11,7 @@ import { menuGraphQuery, blogArticlesGraphQuery } from "../queries";
 const __allComponents = { ...components }
 
 
-export default function Home({ doc, menu, footer, locale }) {
+export default function Home({ doc, menu, footer }) {
   return (
     <div>
       <Layout menu={menu} footer={footer} altLangs={doc.alternate_languages}>
@@ -45,14 +45,11 @@ export async function getStaticProps({ previewData, locale }) {
   }));
 
   // Query the navigation
-  const footer = (await client.getSingle("footer").catch(e => {
+  const footer = (await client.getSingle("footer", { lang: locale }).catch(e => {
     return null
   }));
 
-  const menu = (await client.getSingle(
-    "menu", 
-    // {'graphQuery': menuGraphQuery}
-    ).catch(e => {
+  const menu = (await client.getSingle("menu", { lang: locale }).catch(e => {
     return null
   }));
 

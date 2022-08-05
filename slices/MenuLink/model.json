@@ -10,7 +10,25 @@
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
       "description": "MenuLink",
-      "primary": {},
+      "primary": {
+        "linkLabel": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Link Label",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
       "items": {
         "link": {
           "type": "Link",

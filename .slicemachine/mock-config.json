@@ -264,7 +264,14 @@
     },
     "MenuLink": {
       "default": {
-        "primary": {},
+        "primary": {
+          "linkLabel": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
         "items": {
           "linkLabel": {
             "config": {

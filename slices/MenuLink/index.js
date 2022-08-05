@@ -4,6 +4,7 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import { linkResolver } from '../../prismicio'
+import { PrismicLink } from '@prismicio/react'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -12,8 +13,8 @@ function classNames(...classes) {
 
 const MenuLink = ({ slice }) => {
   return (
-    <section>
-      <Popover className="relative">
+    <>
+      <Popover className="relative mx-4">
         {({ open }) => (
           <>
             <Popover.Button
@@ -31,11 +32,9 @@ const MenuLink = ({ slice }) => {
                   />
                 </>
                 :
-                <>
-                { slice?.items?.map((item, idx) => /* import { Link } from 'prismic-reactjs' */
-                  <a href={Link.url(item.link)} key={idx}><RichText render={item.linkLabel} /></a>
-                  )}
-                </>
+                <PrismicLink field={slice.primary.link}>
+                  <RichText render={slice.primary.linkLabel} />
+                </PrismicLink>
               }
             </Popover.Button>
 
@@ -71,7 +70,7 @@ const MenuLink = ({ slice }) => {
           </>
         )}
       </Popover>
-    </section>
+    </>
   )
 }
 
